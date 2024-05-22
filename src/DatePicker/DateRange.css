@@ -1,0 +1,417 @@
+.react-datepicker__triangle {
+  display: none;
+}
+.react-datepicker__navigation--previous {
+  color: #8493AE !important;
+  margin-left: 19.24px !important;
+}
+.react-datepicker__navigation--next{
+  color: #8493AE !important;
+  margin-right: 19.24px !important;
+}
+.react-datepicker {
+  border: none
+}
+.react-datepicker__header {
+  border-bottom: solid 5px var(--light) !important;
+  background: white !important;
+
+}
+.react-datepicker__current-month {
+  color: #2A3752 !important;
+  font-family: 'Mulish' !important;
+  font-weight: 400 !important;
+  font-size: 17px !important;
+  line-height: 21px !important;
+  text-align: center !important;
+  /* width: 220px !important; */
+}
+.react-datepicker__day--in-range{
+  border-radius: 0px !important;
+  color: white !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 4px !important;
+  width: 44px !important;
+  height: 40px !important;
+  background: #1B96D8 !important;
+  border: 1px solid #F2F4F7 !important;
+}
+.react-datepicker__day{
+  border: 1px solid #F2F4F7 !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 4px !important;
+  width: 44px !important;
+  height: 40px !important;
+  margin: 0px !important;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  text-align: center;
+  color: #455066;
+}
+.react-datepicker__month {
+  margin: 0.1px !important;
+  text-align: justify;
+}
+.date-field fieldset{
+  border: 1px solid #DAE0EB;
+
+}
+.date-field input{
+  color: #8493AE;
+}
+.react-datepicker__day-name {
+  border: none;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 4px !important;
+  width: 44px !important;
+  height: 40px !important;
+  font-weight: 400 !important;
+  font-size: 13px !important;
+  font-family: 'Mulish' !important;
+  line-height: 28px !important;
+  text-align: center !important;
+  margin: 0px !important;
+  color: #8493AE !important;
+}
+.react-datepicker__month-container{
+  float: none;
+}
+.react-datepicker__day--selected{
+  background-color: #054E8B !important;
+  color: #FAFAFA !important;
+}
+.react-datepicker__day--range-start, .react-datepicker__day--range-end{
+  background: #054E8B !important;
+  border: 1px solid #F2F4F7 !important;
+  color: #FAFAFA !important;
+}
+
+.custom-date-picker {
+  position: relative;
+  padding: 0px 0px 0px 20px;
+  width: fit-content
+}
+
+@media only screen and (max-width: 370px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 18px !important;
+  }
+}
+
+@media only screen and (max-width: 368px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 17px !important;
+  }
+}
+
+
+@media only screen and (max-width: 364px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 15.5px !important;
+  }
+}
+
+@media only screen and (max-width: 362px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 14.25px !important;
+  }
+}
+
+@media only screen and (max-width: 358px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 11.5px !important;
+  }
+}
+
+@media only screen and (max-width: 354px) {
+  .react-datepicker__day-name {
+    width: 43px !important;
+    height: 39px !important;
+  }
+
+  .react-datepicker__day {
+    width: 43px !important;
+    height: 39px !important;  
+    line-height: 31px !important;
+  }
+
+  .custom-date-picker{
+    padding: 0px 0px 0px 14px !important;
+  }
+}
+
+@media only screen and (max-width: 352px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 13px !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 12px !important;
+  }
+}
+
+@media only screen and (max-width: 348px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 11px !important;
+  }
+}
+
+@media only screen and (max-width: 346px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 10px !important;
+  }
+}
+
+@media only screen and (max-width: 344px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 8.5px !important;
+  }
+}
+
+@media only screen and (max-width: 342px) {
+  .react-datepicker__day-name {
+    width: 42px !important;
+    height: 38px !important;
+  }
+
+  .react-datepicker__day {
+    width: 42px !important;
+    height: 38px !important; 
+  }
+
+  .custom-date-picker{
+    padding: 0px 0px 0px 11px !important;
+  }
+}
+
+@media only screen and (max-width: 338px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 10.5px !important;
+  }
+}
+
+@media only screen and (max-width: 338px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 9.5px !important;
+  }
+}
+
+@media only screen and (max-width: 334px) {
+  .react-datepicker__day-name {
+    width: 41px !important;
+    height: 37px !important;
+  }
+
+  .react-datepicker__day {
+    width: 41px !important;
+    height: 37px !important; 
+    line-height: 28px !important; 
+  }
+
+  .custom-date-picker{
+    padding: 0px 0px 0px 12px !important;
+  }
+}
+
+@media only screen and (max-width: 332px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 11px !important;
+  }
+}
+
+@media only screen and (max-width: 328px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 9px !important;
+  }
+}
+
+@media only screen and (max-width: 326px) {
+  
+  .react-datepicker__day-name {
+    width: 40px !important;
+    height: 36px !important; 
+  }
+
+  .react-datepicker__day {
+    width: 40px !important;
+    height: 36px !important; 
+    font-size: 15px;
+  }
+  
+  .custom-date-picker{
+    padding: 0px 0px 0px 11px !important;
+  }
+}
+
+@media only screen and (max-width: 322px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 9px !important;
+  }
+}
+
+@media only screen and (max-width: 318px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 7.25px !important;
+  }
+}
+
+@media only screen and (max-width: 316px) {
+  .react-datepicker__day-name {
+    width: 39px !important;
+    height: 35px !important; 
+  }
+
+  .react-datepicker__day {
+    width: 39px !important;
+    height: 35px !important; 
+    line-height: 26px !important; 
+  }
+
+  .custom-date-picker{
+    padding: 0px 0px 0px 10px !important;
+  }
+}
+
+@media only screen and (max-width: 314px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 9px !important;
+  }
+}
+
+
+@media only screen and (max-width: 312px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 8px !important;
+  }
+}
+
+
+@media only screen and (max-width: 310px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 7px !important;
+  }
+}
+
+@media only screen and (max-width: 308px) {
+  
+  .react-datepicker__day-name {
+    width: 38px !important;
+    height: 34px !important; 
+  }
+
+  .react-datepicker__day {
+    width: 38px !important;
+    height: 34px !important; 
+  }
+  
+  .custom-date-picker{
+    padding: 0px 0px 0px 10px !important;
+  }
+}
+
+@media only screen and (max-width: 304px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 8px !important;
+  }
+}
+
+@media only screen and (max-width: 302px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 7px !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .react-datepicker__day-name {
+    width: 37px !important;
+    height: 33px !important; 
+  }
+
+  .react-datepicker__day {
+    width: 37px !important;
+    height: 33px !important; 
+    font-size: 14px;
+  }
+
+  .custom-date-picker{
+    padding: 0px 0px 0px 10px !important;
+  }
+}
+
+@media only screen and (max-width: 298px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 9px !important;
+  }
+}
+
+@media only screen and (max-width: 296px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 8px !important;
+  }
+}
+
+
+@media only screen and (max-width: 294px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 6px !important;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .react-datepicker__day-name {
+    width: 36px !important;
+    height: 32px !important; 
+  }
+
+  .react-datepicker__day {
+    width: 36px !important;
+    height: 32px !important; 
+  }
+
+  .custom-date-picker{
+    padding: 0px 0px 0px 8px !important;
+  }
+}
+
+@media only screen and (max-width: 286px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 6px !important;
+  }
+}
+
+@media only screen and (max-width: 286px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 5px !important;
+  }
+}
+
+@media only screen and (max-width: 282px) {
+  .react-datepicker__day-name {
+    width: 35px !important;
+    height: 31px !important; 
+  }
+
+  .react-datepicker__day {
+    width: 35px !important;
+    height: 31px !important; 
+    line-height: 22px !important;
+  }
+
+  .custom-date-picker{
+    padding: 0px 0px 0px 8px !important;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .custom-date-picker{
+    padding: 0px 0px 0px 7px !important;
+  }
+}

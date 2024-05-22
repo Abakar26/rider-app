@@ -1,0 +1,214 @@
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.qr-image-wrapper section {
+  border: 0 !important;
+  overflow: hidden;
+  padding-top: 0 !important;
+  height: 55vh;
+  width: 100%;
+}
+.camera-position {
+  position: absolute;
+  top:8px;
+  right: 8px;
+  z-index: 1;
+}
+.qr-image-wrapper section div {
+  margin: auto !important;
+  left: 15.5vw !important;
+  box-shadow: transparent 0px 0px 0px 5px inset !important;
+  top: 13vh !important;
+  text-align: center !important;
+  position: absolute !important;
+  display: flex !important;
+  align-items: center !important;
+  align-content: center !important;
+  justify-content: center !important;
+  bottom: 110px !important;
+  height: 50% !important;
+  width: 68% !important;
+  box-shadow: 0px !important;
+  --b: 4px;
+  --c: #054E8B;
+  --w: 60px;
+  border: var(--b) solid transparent !important;
+  --g: #0000 90deg,
+    var(--c) 0;
+  border-radius: 8px;
+  background: conic-gradient(from 90deg at top var(--b) left var(--b), var(--g)) 0 0,
+    conic-gradient(from 180deg at top var(--b) right var(--b), var(--g)) 100% 0,
+    conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--g)) 0 100%,
+    conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--g)) 100% 100%;
+  background-size: var(--w) var(--w);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+}
+.setimage {
+  position: absolute;
+  top: 188px;
+  right: 323px;
+}
+.Button {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  width: 100px;
+  font-weight: 800;
+  letter-spacing: 2;
+  cursor: pointer;
+  border-style: dotted;
+  border-bottom-left-radius: 0fr;
+  border-radius: 10px;
+  transform: all 1s cubic-bezier(0.42, 0, 0.17, 0.71);
+  margin: 10px;
+}
+.Button:hover {
+  background-color: red;
+}
+.dialog {
+  padding: 20px;
+  background: white;
+  position: absolute;
+  z-index: 500;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(37, 37, 37, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dialog-content {
+  background-color: white;
+  margin: 0;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+.close {
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  display: flex;
+}
+.close>button {
+  height: 36px;
+  width: 36px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+  padding-bottom: 5px;
+}
+.green {
+  color: rgb(153, 255, 0);
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: fit-content;
+}
+.red {
+  color: red;
+}
+.message {
+  font-size: 0.8rem;
+}
+.small {
+  font-size: 0.9rem;
+}
+.errorMessage {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.Toastify__toast--error {
+    background: rgb(90, 110, 129) !important;
+}
+.Toastify__toast{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.select-status div{
+  padding: 0px !important;
+  min-height: auto !important;
+}
+
+.select-status fieldset{
+  border-color: #8493AE !important
+}
+
+.filter-buttons-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 8;
+  align-self: stretch;
+  width: 100%;
+  padding: 4px 0px 4px 20px;
+}
+
+.filter-close-icon {
+  font-size: 2.1875rem !important;
+}
+
+@media only screen and (max-width: 392px) {
+  .filter-pop-up{
+    padding: 15px 11px 15px 15px !important;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .filter-pop-up{
+    padding: 13px 10.5px 13px 13px !important;
+  }
+
+  .filter-close-icon {
+    font-size: 2rem !important;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .filter-pop-up{
+    padding: 11px 10px 11px 11px !important;
+  }
+
+  .filter-close-icon {
+    font-size: 1.9rem !important;
+  }
+}
+
+@media only screen and (max-width: 322px) {
+  .clear-filter-btn{
+    padding: 2px 4px !important;
+    font-size: 14.5px !important;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .filter-pop-up{
+    padding: 9px 10px 9px 9px !important;
+  }
+}
